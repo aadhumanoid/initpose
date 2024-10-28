@@ -22,9 +22,9 @@
           <!-- Baris untuk setiap servo -->
           <tr>
             <td>1-r_sho_pitch</td>
-            <td><input type="number" min="0" max="4095" value="2048" onchange="convert(this)" /></td>
-            <td class="rad">0</td>
-            <td class="deg">0</td>
+            <td><input type="number" min="0" max="4095" value="2048" onchange="updateValues(this, 'servo')"></td>
+            <td><input type="number" step="0.01" value="0" onchange="updateValues(this, 'rad')"></td>
+            <td><input type="number" step="0.1" value="0" onchange="updateValues(this, 'deg')"></td>
           </tr>
           <tr>
             <td>2-l_sho_pitch</td>
