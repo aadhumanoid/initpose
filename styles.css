@@ -111,9 +111,12 @@ h2 a {
   transition-timing-function: line;
 }
 
-/* @media (max-width: 800px) {
-  .container td:nth-child(4),
-  .container th:nth-child(4) {
-    display: none;
+@media (max-width: 800px) {
+  .container td {
+    font-weight: normal;
+    font-size: 0.75em;
+    -webkit-box-shadow: 0 2px 2px -2px #0e1119;
+    -moz-box-shadow: 0 2px 2px -2px #0e1119;
+    box-shadow: 0 2px 2px -2px #0e1119;
   }
-} */
+}
