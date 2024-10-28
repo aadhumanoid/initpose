@@ -114,7 +114,7 @@ h2 a {
 @media (max-width: 800px) {
   .container td {
     font-weight: normal;
-    font-size: 0.75em;
+    font-size: 0.7em;
     -webkit-box-shadow: 0 2px 2px -2px #0e1119;
     -moz-box-shadow: 0 2px 2px -2px #0e1119;
     box-shadow: 0 2px 2px -2px #0e1119;
