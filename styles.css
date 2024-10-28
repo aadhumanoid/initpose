@@ -120,3 +120,35 @@ h2 a {
     box-shadow: 0 2px 2px -2px #0e1119;
   }
 }
+
+.button-container {
+  display: flex; /* Menggunakan flexbox */
+  justify-content: center; /* Memusatkan elemen secara horizontal */
+  align-items: center; /* Memusatkan elemen secara vertikal */
+  height: 100%; /* Mengambil tinggi dari elemen induk */
+}
+
+button {
+  background-color: #fff842;
+  color: #403e10;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #403e10;
+  color: white;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
